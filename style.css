@@ -17,6 +17,7 @@ section{
     color: rgb(0, 0, 0);
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    overflow-x: hidden;
 }
 .section-header{
     width: 30%;
