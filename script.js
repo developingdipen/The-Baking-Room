@@ -10,3 +10,6 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
+function myScroll() {
+  document.getElementById("discover").scrollIntoView()
+}
