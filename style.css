@@ -35,6 +35,10 @@ section{
     width: 100%;
     max-width: 100%;
 }
+body[data-aos-delay='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-delay='4000'] {
+    transition-delay: 4000ms;
+  }
 /*Global Styles End*/
 
 
