@@ -11,6 +11,9 @@
         <meta name="HandheldFriendly" content="true"> 
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
@@ -22,7 +25,7 @@
       </head>
 <body>
     <div class="container">
-        <nav class="navbar" id="navbar">
+        <nav class="navbar animated fadeIn slower delay-2s" id="navbar">
             <ul class="nav-list">
                 <li><a href="#discover">Discover</a></li>
                 <li><a href="#gallery">Gallery</a></li>
@@ -33,7 +36,7 @@
         </nav>
 
         <header class="header">
-            <div class="header-text">
+            <div class="header-text animated fadeIn slower delay-1s">
                 <h1>The Baking Room</h1>
                 <div class="divider"></div>
                 <h2>From Savory to Sweets, We Bake it All!</h2>
@@ -50,10 +53,10 @@
                     <div class="divider"></div>
                 </div>
                 <div class="flex-test">
-                    <div class="flex-item">
+                    <div class="flex-item" data-aos="slide-down" data-aos-duration="1000">
                         <img src="https://images.pexels.com/photos/3807216/pexels-photo-3807216.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
                     </div>
-                    <div class="flex-item">
+                    <div class="flex-item" data-aos="slide-up" data-aos-duration="1000">
                         <p>"Jelly beans croissant candy cupcake. Sesame snaps pastry chocolate cake tart oat cake jelly tiramisu. Brownie toffee pie tootsie roll marshmallow marshmallow. Fruitcake dragée jelly-o dragée ice cream jelly beans. Soufflé cookie chocolate bar cheesecake candy sweet bonbon. Chocolate cake danish muffin marzipan wafer tart. Bear claw tiramisu soufflé powder fruitcake. Jelly jujubes bonbon wafer croissant sugar plum caramels candy canes.
                         </p>
                         
@@ -87,15 +90,19 @@
                     <div class="divider"></div>
                 </div>
                 <div class="flex-test">
-                    <div class="flex-item">
+                    <div class="flex-item" data-aos="slide-right" data-aos-duration="1000">
                         <img src="https://images.pexels.com/photos/1555813/pexels-photo-1555813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
                     </div>
                     <div class="flex-item">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, veritatis cum. Eveniet accusamus, quisquam placeat, quod harum nam dolores facere adipisci debitis dolore aliquam, rerum cupiditate et ullam praesentium aliquid.
-                        </p>
-                        <p>Bear claw sesame snaps ice cream candy canes apple pie. Sesame snaps pudding donut jelly-o gummies lemon drops cake marzipan tootsie roll. Topping bonbon cupcake biscuit candy canes gingerbread cake cotton candy.
-                        </p>
-                        <button class="action-btn">Open Menu</button>
+                        <div data-aos="slide-left" data-aos-duration="1000" >
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, veritatis cum. Eveniet accusamus, quisquam placeat, quod harum nam dolores facere adipisci debitis dolore aliquam, rerum cupiditate et ullam praesentium aliquid.
+                            </p>
+                            <p>Bear claw sesame snaps ice cream candy canes apple pie. Sesame snaps pudding donut jelly-o gummies lemon drops cake marzipan tootsie roll. Topping bonbon cupcake biscuit candy canes gingerbread cake cotton candy.
+                            </p>
+                        </div>
+                        <button class="action-btn" data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="1400">Open Menu</button>
                     </div>
                 </div>
             </div>  
@@ -111,20 +118,20 @@
                     <div class="flex-item">
                         <img src="https://images.pexels.com/photos/245669/pexels-photo-245669.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
 
-                        <p>"Cookie lollipop jelly chocolate apple pie ice cream jelly-o brownie chocolate cake. Cake wafer chocolate bar oat cake jelly beans cake marzipan pastry cake. Chocolate bar sweet chocolate cake tiramisu halvah chocolate."</p>
-                        <h3>Micheal Scott</h3>
+                        <p data-aos="fade-in" data-aos-duration="1000">"Cookie lollipop jelly chocolate apple pie ice cream jelly-o brownie chocolate cake. Cake wafer chocolate bar oat cake jelly beans cake marzipan pastry cake. Chocolate bar sweet chocolate cake tiramisu halvah chocolate."</p>
+                        <h3 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">Micheal Scott</h3>
                     </div>  
                     <div class="flex-item">
                         <img src="https://images.pexels.com/photos/6595/food-plate-healthy-coffee.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
 
-                        <p>"Croissant candy canes croissant dessert biscuit tart pastry pastry. Marzipan jujubes lemon drops danish cotton candy soufflé carrot cake candy canes sugar plum. Toffee topping lollipop topping cupcake muffin dragée."</p>
-                        <h3>Kevin Malone</h3>
+                        <p data-aos="fade-in" data-aos-duration="1000">"Croissant candy canes croissant dessert biscuit tart pastry pastry. Marzipan jujubes lemon drops danish cotton candy soufflé carrot cake candy canes sugar plum. Toffee topping lollipop topping cupcake muffin dragée."</p>
+                        <h3 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">Kevin Malone</h3>
                     </div>  
                     <div class="flex-item">
                         <img src="https://images.pexels.com/photos/6277/food-sweet-christmas-xmas.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
 
-                        <p>"Cotton candy liquorice candy brownie sweet oat cake gummies. Dessert ice cream chocolate cake cake icing. Croissant pie chocolate. Macaroon jujubes carrot cake cookie apple pie liquorice."</p>
-                        <h3>Dwight Schrute</h3>
+                        <p data-aos="fade-in" data-aos-duration="1000">"Cotton candy liquorice candy brownie sweet oat cake gummies. Dessert ice cream chocolate cake cake icing. Croissant pie chocolate. Macaroon jujubes carrot cake cookie apple pie liquorice."</p>
+                        <h3 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">Dwight Schrute</h3>
                     </div>
                 </div>
             </div>
@@ -141,14 +148,14 @@
                         <p>Tart donut marzipan dragée. Gummi bears bonbon cheesecake cotton candy cotton candy sweet roll marzipan chupa chups. Biscuit jelly-o cheesecake bear claw biscuit dessert oat cake.</p>  
 
                         <ul class="social-links">
-                            <li><a href="#" class="social-icon" aria-label="Twitter Link"> <i class="fa fa-twitter-square"></i></a></li>
-                            <li><a onclick="window.location.href='#';" class="social-icon" aria-label="Email Link"> <i class="fa fa-envelope-o"></i></a></li>
-                            <li><a href="#" class="social-icon" aria-label="Instagram Link"> <i class="fa fa-instagram"></i></a></li> 
-                            <li><a href="#" class="social-icon" aria-label="Pinterest Link"> <i class="fa fa-pinterest-square"></i></a></li>         
+                            <li><a href="#" class="social-icon" aria-label="Twitter Link" data-aos="fade-in" data-aos-duration="1000"> <i class="fa fa-twitter-square"></i></a></li>
+                            <li><a onclick="window.location.href='#';" class="social-icon" aria-label="Email Link" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000"> <i class="fa fa-envelope-o"></i></a></li>
+                            <li><a href="#" class="social-icon" aria-label="Instagram Link" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2000"> <i class="fa fa-instagram"></i></a></li> 
+                            <li><a href="#" class="social-icon" aria-label="Pinterest Link" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="3000"> <i class="fa fa-pinterest-square"></i></a></li>         
                         </ul>
                     </div>
 
-                    <div class="map flex-item" id="map">
+                    <div class="map flex-item" id="map" data-aos="flip-down" data-aos-delay="3000">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416689.52361994406!2d-119.29955505730818!3d35.3212126102922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea6bc8b994cb0d%3A0x59360c0998fe74c8!2sBakersfield%2C%20CA!5e0!3m2!1sen!2sus!4v1589925605474!5m2!1sen!2sus" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
@@ -170,5 +177,10 @@
 
 
 <script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
